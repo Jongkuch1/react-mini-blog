@@ -1,0 +1,16 @@
+.post-list {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.post-list__heading {
+  margin: 0 0 1rem;
+  color: #1f2933;
+}
+
+.post-list__grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
