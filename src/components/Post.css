@@ -1,0 +1,41 @@
+.post-card {
+  padding: 1.25rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.post-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.post-card__title {
+  margin: 0;
+  font-size: 1.15rem;
+  color: #1f2933;
+}
+
+.post-card__badge {
+  flex-shrink: 0;
+  background-color: #e02424;
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+}
+
+.post-card__meta {
+  margin: 0.35rem 0 0.75rem;
+  font-size: 0.85rem;
+  color: #616e7c;
+}
+
+.post-card__preview {
+  margin: 0;
+  color: #3e4c59;
+  line-height: 1.5;
+}
